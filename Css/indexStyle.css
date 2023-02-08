@@ -1,0 +1,156 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.8;
+}
+h2{
+    font-family: 'Lobster', cursive;font-size: 1.5rem;
+}
+p{
+    font-family: 'Lobster', cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden; 
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.white{
+    color: white;
+}
+.container{
+    padding: 3% 8% 6%;
+}
+.col-lg-6 h1{
+    line-height: 1.5;
+}
+.col-lg-6 button{
+    margin: 5% 3% 5% 0;
+}
+.relative-pos{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
+.title-image{
+    width: 60%;transform: rotate(25deg);
+    position: absolute;right: 30%;
+}
+#no1{
+    background-color: #16213E;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-light", sans-serif;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.multi-image{
+    width: 58%;transform: rotate(15deg);
+    position: absolute;right: 11%;top: -1%;
+}
+#no2{
+    text-align: center;background-color: #2C2E43;
+    color: white;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+.testimonial-image{
+    width: 15%;border-radius: 100%;
+    margin: 20px;
+}
+#no3{
+    background: #2B3A55;text-align: center;padding:5% 10% 6%;
+}
+.blogs{
+    font-family:Georgia, 'Times New Roman', Times, serif;font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 2.5;padding: 0;margin: 0;background: #16213E;
+}
+a{
+    text-decoration: none;color: white;transition: all 0.6s;
+}
+a:hover{
+    text-decoration:underline;color: rgb(192, 50, 50);
+}
+.blogs  li{
+    width: auto;display: inline-block;margin: 15px;
+}
+#no4{
+    padding:4% 8% 1%;text-align: center;background: #0081B4;
+}
+#no4 h1{
+    color: #eee7d9;font-size: 3.8rem;
+}
+.orders{
+    background: none;width: auto;padding: 5px;
+}
+.box-orders{
+    background: #212529;width: 240px;border-radius: 10px;padding: 5px;
+    margin: 30px;height: 390px;display: inline-block;margin-top: 10px;
+}
+.box-orders h3{
+    background: none;padding: 13px;font-weight: 600;
+}
+.box-orders p{
+    background: none;padding: 5px;margin: 5px;
+    font-weight: 600;text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box-orders .btn{
+    width: 90%;bottom: -13px;
+}
+#no5{
+    background: #131212;text-align: center;padding: 3% 3% 3%;
+}
+#no5 h1{
+    color: #ECB365;
+}
+#no5 button{
+    padding: 100px 30px 100px;float: left;
+}
+#no5 textarea{
+    width: 45%;height: 230px;border-radius: 4px;
+    resize: vertical;display: inline-block;
+}
+.user-pro{
+    background: none;width: 400px;float: right;height: 230px;
+    border-left: 2px solid rgb(185, 29, 29);
+}
+.user-pro input{
+    margin: 15px;width: 295px;
+    margin-top: 45px;
+}
+input[type="email"]{
+    text-align: center;
+}
+input[type="text"]{
+    text-align: center;
+}
+@media (max-width:998px){
+    #no5{
+        height: 700px;text-align: center;
+    }
+    #no5 textarea{
+        width: 60%;
+    }
+    .user-pro{
+        border: none;width: 100%;
+    }
+    .user-pro input{
+        width: 255px;
+    }
+}
