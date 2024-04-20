@@ -1,2 +1,4 @@
 # Personal-Site-0.1v
-I created this in 3 days, This project is primary that include three tools Html/Css/Bootstrap .
+Took creating this 3-4 hours with very basic understanding
+and with begginer knowledge, It shows how fast I can learn
+and practice.
